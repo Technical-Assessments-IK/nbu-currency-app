@@ -12,7 +12,7 @@ function showNotification(message) {
     notification.style.position = 'fixed';
     notification.style.bottom = '10px';
     notification.style.right = '10px';
-    notification.style.padding = '10px';
+    notification.style.padding = '10px';  
     notification.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     notification.style.color = '#fff';
     notification.style.borderRadius = '5px';
