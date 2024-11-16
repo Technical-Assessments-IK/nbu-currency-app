@@ -29,7 +29,7 @@ function showNotification(message) {
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === 'changeText') {
       changeText(request.selector, request.newText);
-      sendResponse({ status: 'Text changed successfully' });
+      sendResponse({ status: 'Text changed successfully, congrats' });
     }
   
     if (request.action === 'showNotification') {
