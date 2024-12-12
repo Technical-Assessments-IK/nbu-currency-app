@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../pages/Home.vue';
-import ChangedRates from '../pages/ChangedRates.vue';
-import SearchRates from '../pages/SearchRates.vue';
 import CurrencyEdit from '../components/CurrencyEdit.vue';
+import ChangedRates from '../pages/ChangedRates.vue';
+import Home from '../pages/Home.vue';
+import SearchRates from '../pages/SearchRates.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -12,7 +12,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/nbu-currency-app/'),
   routes,
 });
 
